@@ -11,6 +11,22 @@ header {
     text-align: center;
     padding-bottom: 20px;
 }
+.header-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 100px;/* Space between name and photo */
+}
+
+.header-container h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.profile-image {
+    width: 150px;  /* Adjust width */
+    height: 150px; /* Adjust height */
+    object-fit: cover; /* Keep image proportions clean */
+    border-radius: 70%; /* Optional: Makes image circular */
+}
 
 nav ul {
     list-style-type: none;
